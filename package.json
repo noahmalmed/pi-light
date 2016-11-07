@@ -4,8 +4,13 @@
   "description": "A small web server designed to run on a raspberry-pi and respond to events driven by firebase.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^3.5.3",
+    "rpi-gpio": "^0.7.0"
+  }
 }
